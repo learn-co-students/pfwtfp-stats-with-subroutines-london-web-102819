@@ -38,6 +38,15 @@ basic statistics calculator. You'll need to define the following methods
     * Calculate the mean on the set of the squared differences
     * Take the square root of that new mean
 
+## Special Rules
+
+1. Do not use any built-in methods Ruby provides for doing statistical
+   calculation
+2. Do not use any programming community resources e.g. Stack Overflow to solve
+   this. You should code this by hand, using the Flatiron Process and _the code
+   skills you already know_. If you can loop, assign variables, and do math
+   functions, you can solve this!
+
 ## Conclusion
 
 ## Resources
