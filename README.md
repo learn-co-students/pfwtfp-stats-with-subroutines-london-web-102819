@@ -49,4 +49,16 @@ basic statistics calculator. You'll need to define the following methods
 
 ## Conclusion
 
+If you've done this correctly, you should be able to see how DRY and clear your
+code calculation can be. You probably also had a chance to stretch your
+looping, iteration and enumeration skills too!
+
+The important thing to keep in mind is that this breakdown of complexity into
+collaborating subroutines should be one of your go-to techniques as you wade
+out from simple programs to more complex ones.
+
 ## Resources
+
+- [Statistical Definitions][statdef]
+
+[statdef]: http://tutorials.istudy.psu.edu/basicstatistics/basicstatistics2.html
