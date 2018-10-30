@@ -2,14 +2,41 @@
 
 ## Learning Goals
 
--SWBAT 1
--SWBAT 2
+- Identify techniques for breaking down large problems: hide work in subroutines
+- Identify techniques for breaking down large problems: DRY, prefer subroutines
 
-## Introduction
+## Working with Subroutines
 
-### SWBAT 1
+As an exercise in designing software that's kept neat and readable by
+subroutines, we're going to create a basic statistics calculator. While it
+might seem a bit dry, this is the heart of the burgeoning field of data
+science. Also it turns out that some of the statistical definitions depend on
+_other_ definitions: perfect opportunities for us to DRY out code _and_ hide
+complexity.
 
-### SWBAT 2
+This lab has been given a number of tests that will ensure you implement a
+basic statistics calculator. You'll need to define the following methods
+
+* `mean`
+  * **Input**: A set of numbers
+  * **Output**: The sum of the elements divided by the count
+    of elements
+* `median`
+  * **Input**: A set of numbers
+  * **Output**: The middle-most number. Sort the set and find the number in the
+    middle. If the set count is even, it is the average of the two numbers in
+    the middle
+* `mode`
+  * **Input**: A set of numbers
+  * **Output**: The number that occurs the most
+* `standard_deviation`
+  * **Input**: A set of numbers
+  * **Output**: The result of:
+    * Calculating the input's mean
+    * For each number in the set, subtract the mean from that number and square
+      it. Hang onto that result of squared differences
+    * Calculate the mean on the set of the squared differences
+    * Take the square root of that new mean
 
 ## Conclusion
 
