@@ -1,3 +1,40 @@
+#1. Identify the problem
+ 
+# I need to calculate statistics
+ 
+#2. Identify the output that would solve the problem
+ 
+# Make a stat calculator
+ 
+3. Name the procedure that fixes the problem
+ 
+# make_calc
+ 
+#4. Identify what inputs are needed to create the output
+ 
+# mean, median, mode, standard devation
+ 
+#5. Define the procedure’s implementation
+ 
+# mean 
+# Input: A set of numbers / Output: The sum of the elements divided by the count of elements
+
+# median
+# Input: A set of numbers
+# Output: The middle-most number. Sort the set and find the number in the middle. If the set count is even, it is the average of the two numbers in the middle
+
+# mode
+# Input: A set of numbers
+# Output: The number that occurs the most
+
+# standard_deviation
+# Input: A set of numbers
+# Output: The result of:
+# Calculating the input's mean
+# For each number in the set, subtract the mean from that number and square it. Hang onto that result of squared differences
+# Calculate the mean on the set of the squared differences
+# Take the square root of that new mean
+
 # Title
 
 ## Learning Goals
